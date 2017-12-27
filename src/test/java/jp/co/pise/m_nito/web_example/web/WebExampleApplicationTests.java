@@ -1,4 +1,4 @@
-package jp.co.pise.m_nito.web_example;
+package jp.co.pise.m_nito.web_example.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

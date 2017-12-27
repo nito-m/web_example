@@ -1,19 +1,18 @@
-package jp.co.pise.m_nito.web_example.controller;
+package jp.co.pise.m_nito.web_example.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/hello")
-public class HelloController {
+@RequestMapping("/")
+public class RootController {
 
     @GetMapping
-    public String getHello() {
+    public String index() {
 
-        System.out.println("hello");
+        System.out.println("root");
 
-        return "hello";
+        return "root";
     }
-
 }
