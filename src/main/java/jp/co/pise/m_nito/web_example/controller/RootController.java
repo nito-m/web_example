@@ -5,15 +5,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/hello")
-public class HelloController {
+@RequestMapping("/")
+public class RootController {
 
     @GetMapping
-    public String getHello() {
+    public String getRoot() {
 
-        System.out.println("hellodfasdfas");
+        System.out.println("fdsfdsdads");
 
-        return "hello";
+        return "root";
     }
-
 }
