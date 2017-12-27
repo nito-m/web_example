@@ -11,7 +11,7 @@ public class RootController {
     @GetMapping
     public String getRoot() {
 
-        System.out.println("fdsfdsdads");
+        System.out.println("root");
 
         return "root";
     }
